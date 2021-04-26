@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Flappy_Bird" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Flappy_Bird" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="D:/mingw_dev_lib/include/SDL2" />
+					<Add directory="D:/SDL-2/Codeblock/SDL2_image-2.0.5/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="D:/SDL-2/Codeblock/SDL2_mixer-2.0.4/x86_64-w64-mingw32/include/SDL2" />
+					<Add directory="D:/SDL-2/Codeblock/SDL2_ttf-2.0.15/x86_64-w64-mingw32/include/SDL2" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer" />
+					<Add directory="D:/mingw_dev_lib/lib" />
+					<Add directory="D:/SDL-2/Codeblock/SDL2_image-2.0.5/x86_64-w64-mingw32/lib" />
+					<Add directory="D:/SDL-2/Codeblock/SDL2_mixer-2.0.4/x86_64-w64-mingw32/lib" />
+					<Add directory="D:/SDL-2/Codeblock/SDL2_ttf-2.0.15/x86_64-w64-mingw32/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Flappy_Bird" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Fonts/calibri.ttf" />
+		<Unit filename="Fonts/calibrib.ttf" />
+		<Unit filename="Fonts/calibrii.ttf" />
+		<Unit filename="Fonts/calibril.ttf" />
+		<Unit filename="Fonts/calibrili.ttf" />
+		<Unit filename="Fonts/calibriz.ttf" />
+		<Unit filename="Image/Leaderboard.png" />
+		<Unit filename="Image/Leftarrow.png" />
+		<Unit filename="Image/MainMenu.png" />
+		<Unit filename="Image/Rightarrow.png" />
+		<Unit filename="Image/background.png" />
+		<Unit filename="Image/base.png" />
+		<Unit filename="Image/bird_0.png" />
+		<Unit filename="Image/bird_1.png" />
+		<Unit filename="Image/bird_3.png" />
+		<Unit filename="Image/glass.png" />
+		<Unit filename="Image/grass.png" />
+		<Unit filename="Image/landSprite.png" />
+		<Unit filename="Image/message.png" />
+		<Unit filename="Image/pipe_Above.png" />
+		<Unit filename="Image/pipe_Below.png" />
+		<Unit filename="src/Background.cpp" />
+		<Unit filename="src/Background.h" />
+		<Unit filename="src/CollisionManager.cpp" />
+		<Unit filename="src/CollisionManager.h" />
+		<Unit filename="src/Gameloop.cpp" />
+		<Unit filename="src/Gameloop.h" />
+		<Unit filename="src/Gameover.cpp" />
+		<Unit filename="src/Gameover.h" />
+		<Unit filename="src/MainMenu.cpp" />
+		<Unit filename="src/MainMenu.h" />
+		<Unit filename="src/Object.cpp" />
+		<Unit filename="src/Object.h" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Player.h" />
+		<Unit filename="src/TextManager.cpp" />
+		<Unit filename="src/TextManager.h" />
+		<Unit filename="src/TextureManager.cpp" />
+		<Unit filename="src/TextureManager.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
