@@ -21,7 +21,9 @@ You need to setup SDL development libraries to play the game:
 * Put the `libgcc_s_seh-1.dll`, `libstdc++-6.dll`, `libwinpthread-1.dll` in [Core](https://github.com/khanhvankhanh141/Flappy_Bird/tree/main/Core) into the System32 if your computer contains the 32bit library <into the SysWow64 if contains the 64bit library >.
 * Extract file [Setup](https://github.com/khanhvankhanh141/Flappy_Bird/blob/main/Setup.rar) to get the SDL2 library or another library to compile.
 * After setup the libraries and put all file.dll into the Windows system dowload all file of project.
-* You can use [Flappy-Bird.exe](https://github.com/khanhvankhanh141/Flappy_Bird/blob/main/bin/Debug/Flappy_Bird.exe) in [bin/Debug](https://github.com/khanhvankhanh141/Flappy_Bird/tree/main/bin/Debug) to play the game.
+* After setup [Mingw64](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-win32/seh/x86_64-8.1.0-release-win32-seh-rt_v6-rev0.7z/download),[SDL2](https://www.libsdl.org/download-2.0.php),[SDL_Image](https://www.libsdl.org/projects/SDL_image/),[SDL_TTF](https://www.libsdl.org/projects/SDL_ttf/) you can use [Flappy-Bird.exe](https://github.com/khanhvankhanh141/Flappy_Bird/blob/main/bin/Debug/Flappy_Bird.exe) in [bin/Debug](https://github.com/khanhvankhanh141/Flappy_Bird/tree/main/bin/Debug) to play the game.
 * Another way you can setup the compiler in `Code::Blocks` and run the source code.
+### Play Guide
+Press Space to jump.
 ### Contributing 
-This game made by 100% C++ language.
+* This game made by 100% C++ language.
