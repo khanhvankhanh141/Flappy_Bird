@@ -27,3 +27,4 @@ You need to setup SDL development libraries to play the game:
 Press Space to jump.
 ### Contributing 
 * This game made by 100% C++ language.
+* Video tutorial [Video](https://drive.google.com/file/d/11HBMT8gQhvMPFny0q6_ZU8ow_vcE-CPJ/view?usp=sharing) 
