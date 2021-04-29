@@ -1,5 +1,5 @@
 # **FLAPPY BIRD**
-## GAME PROJECT OF INT2215-2 created by ĐOÀN VIỆT KHÁNH
+## GAME PROJECT of INT2215-2 created by ĐOÀN VIỆT KHÁNH
 
 Using C/C++ and [SDL2](https://www.libsdl.org/), [SDL_ttf](https://www.libsdl.org/projects/SDL_ttf/), [SDL_image](https://www.libsdl.org/projects/SDL_image/) development libraries on [Code::Blocks](https://www.codeblocks.org/).
 
